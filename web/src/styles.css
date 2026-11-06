@@ -52,6 +52,76 @@ button:disabled {
   border-radius: 0.5rem;
 }
 
+.cash-up-details {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.cash-up-field-group {
+  min-width: 0;
+}
+
+.cash-up-field-group p {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0;
+}
+
+.cash-up-variance-value {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cash-up-variance-status {
+  color: #d32f2f;
+  font-weight: 700;
+}
+
+.cash-up-variance-match {
+  color: #2e7d32;
+}
+
+.cash-up-field-row {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  align-items: start;
+  gap: 0.75rem;
+}
+
+.cash-up-field-row label {
+  padding-top: 1rem;
+  font-weight: 700;
+}
+
+.cash-up-field-row .MuiFormControl-root {
+  width: 100%;
+}
+
+.cash-up-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.cash-up-submit-group {
+  display: grid;
+  justify-items: end;
+  gap: 0.25rem;
+}
+
+.cash-up-finalized-at {
+  font-size: 0.875rem;
+  color: #455969;
+}
+
 .fixture-controls {
   border-top: 1px solid #bac8d1;
   padding-top: 1rem;
