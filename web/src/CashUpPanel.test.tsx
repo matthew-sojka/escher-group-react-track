@@ -94,7 +94,7 @@ describe("CashUpPanel", () => {
 
     const countInput = screen.getByRole("spinbutton", { name: "Drawer Count" });
     expect(screen.getByLabelText("Explanation")).toBeInTheDocument();
-    expect(screen.getByText("Not calculated")).toBeInTheDocument();
+    expect(screen.getByText("--")).toBeInTheDocument();
 
     fireEvent.change(countInput, { target: { value: "150.25" } });
     fireEvent.change(countInput, { target: { value: "" } });
